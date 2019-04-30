@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'a24';
+  src:  url('../fonts/a24.eot?cvlbxx');
+  src:  url('../fonts/a24.eot?cvlbxx#iefix') format('embedded-opentype'),
+    url('../fonts/a24.ttf?cvlbxx') format('truetype'),
+    url('../fonts/a24.woff?cvlbxx') format('woff'),
+    url('../fonts/a24.svg?cvlbxx#a24') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="a24-"], [class*=" a24-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'a24' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.a24-arrow-down:before {
+  content: "\61";
+}
+.a24-broken-heart:before {
+  content: "\62";
+}
+.a24-commentary:before {
+  content: "\63";
+}
+.a24-eye:before {
+  content: "\64";
+}
+.a24-eye2:before {
+  content: "\65";
+}
+.a24-eyes:before {
+  content: "\66";
+}
+.a24-facebook:before {
+  content: "\67";
+}
+.a24-favoris:before {
+  content: "\68";
+}
+.a24-fleche-bast:before {
+  content: "\69";
+}
+.a24-heart:before {
+  content: "\e909";
+}
+.a24-in:before {
+  content: "\6b";
+}
+.a24-linkedin:before {
+  content: "\6c";
+}
+.a24-live:before {
+  content: "\6d";
+}
+.a24-menu-dossier-video:before {
+  content: "\6e";
+}
+.a24-menu-news:before {
+  content: "\6f";
+}
+.a24-menu-send-video:before {
+  content: "\70";
+}
+.a24-menu-trigger:before {
+  content: "\71";
+}
+.a24-menu-video:before {
+  content: "\72";
+}
+.a24-oblique:before {
+  content: "\73";
+}
+.a24-playIcon:before {
+  content: "\74";
+}
+.a24-search:before {
+  content: "\75";
+}
+.a24-send-video:before {
+  content: "\76";
+}
+.a24-share:before {
+  content: "\77";
+}
+.a24-slide-down:before {
+  content: "\78";
+}
+.a24-slide-left:before {
+  content: "\79";
+}
+.a24-slide-right:before {
+  content: "\7a";
+}
+.a24-twitter:before {
+  content: "\31";
+}
+.a24-votes:before {
+  content: "\32";
+}
+.a24-youtube:before {
+  content: "\33";
+}
+.a24-zen-icon:before {
+  content: "\34";
+}
+

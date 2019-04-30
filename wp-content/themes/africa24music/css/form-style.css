@@ -1,0 +1,41 @@
+input[type="text"],input[type="email"],input[type="password"],input[type="number"], select, textarea{
+	display: block;
+    border: none;
+    width: 100%;
+    padding: 4px 10px;
+    color: #000000;
+}
+label{
+	display: block; font-size: small;
+}
+input[type="submit"]{
+	display: inline-block;
+	/*width: 40%;*/
+}
+textarea.longtext{
+	min-height: 150px ;
+}
+span.fake-upload {
+    display: inline-block;
+    padding: 2px 14px;
+    margin-bottom: 28px;
+    background: #848382;
+    color: #000000;
+    border: 1px solid #848382;
+    border-radius: 12px;
+    cursor: pointer;
+}
+span.fake-upload + input[type="file"] {
+    display: none;
+}
+span.selected-image {
+    color: #ffffff;
+    font-size: medium;
+    padding-left: 2%;
+}
+.validate{
+	padding: 2%; text-align: right;
+}
+.validate button.btn-primary {
+    padding: 5% 10%;
+}

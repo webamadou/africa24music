@@ -1,0 +1,295 @@
+/*Font  Icons*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?rzn589');
+  src:  url('../fonts/icomoon.eot?rzn589#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?rzn589') format('truetype'),
+    url('../fonts/icomoon.woff?rzn589') format('woff'),
+    url('../fonts/icomoon.svg?rzn589#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="a24icon-"], [class*=" a24icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#notice{ display: none; }
+.a24icon-pencil:before {
+  content: "\e905";
+}
+.a24icon-box-add:before {
+  content: "\e95e";
+}
+.a24icon-box-remove:before {
+  content: "\e95f";
+}
+.a24icon-download:before {
+  content: "\e960";
+}
+.a24icon-upload:before {
+  content: "\e961";
+}
+.a24icon-spinner6:before {
+  content: "\e97f";
+}
+.a24icon-bin:before {
+  content: "\e9ac";
+}
+.a24icon-clipboard:before {
+  content: "\e9b8";
+}
+.a24icon-cloud-check:before {
+  content: "\e9c4";
+}
+.a24icon-download2:before {
+  content: "\e9c5";
+}
+.a24icon-upload2:before {
+  content: "\e9c6";
+}
+.a24icon-download3:before {
+  content: "\e9c7";
+}
+.a24icon-upload3:before {
+  content: "\e9c8";
+}
+.a24icon-eye:before {
+  content: "\e9ce";
+}
+.a24icon-checkbox-checked:before {
+  content: "\ea52";
+}
+
+.widefat {width: auto;}
+
+.ss-list-width {max-width:10%}
+.ss-form-width {width:100%}
+.ss-th-width {width:25%}
+
+
+.ss-field-width {width:75%}
+
+.view-table {
+  min-width: 75%;
+}
+
+.list-table {
+  width: 100%;
+}
+
+.song-title {
+  min-width: 20%;
+}
+.artist-name {
+  min-width: 15%!important;
+}
+
+.actions-column {
+  width:10%!important;
+  text-align: center;
+}
+/*.page-title {
+  display: block;
+  margin: auto;
+  text-align: center; 
+}
+*/
+select#clip_id {
+  width: 90%;
+  height: 40px;
+  margin: 0;
+  margin-top: 8px;
+}
+span#spinner {
+  color: #317f95;
+}
+.upload_type_div div{ padding: 0 }
+label.label-box {
+  display: block;
+  text-align: left;
+  border: 1px solid #e1e1e1;
+  padding: 5px;
+  margin: 0 auto;
+  background: #efeaea;
+}
+label.label-box input[type="radio"] {
+  right: 14px;
+  position: absolute;
+}
+label.fancycheck {
+    font-size: medium;
+    padding-left: ;
+    padding-left: 26px;
+    text-align: left;
+    display: block;
+}
+label.fancycheck:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 16px;
+    top: 5px;
+    background-color: rgba(11, 11, 11, 0.1);
+    background: url(../images/unchecked.png) 0 0 no-repeat;
+}
+input[type="checkbox"]#cgu:checked + label:before{
+    content: "";
+    background: url(../images/checked.png) 0 0 no-repeat;
+}
+.container-fields textarea{
+    height: 110px;
+}
+.container-fields input[type="file"] {
+    /* display: none; */
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    top: 80%;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    opacity: 0;
+}
+.container-fields button {
+    border-radius: 6px;
+    border: none;
+    padding: 0.5% 6%;
+    font-size: small;
+}
+.container-fields h4.field-title {
+    color: #317f95;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 500;
+    text-align: center;
+}
+#a24-progress {
+    margin: 1% 0;
+    display: none;
+}
+h3#status {
+    padding: 0;
+    margin: 0;
+    margin-top: -31px;
+    margin-bottom: 20px;
+    font-size: small;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    position: relative;
+    z-index: 10000;
+}
+p#loaded_n_total {
+    font-size: small;
+    color: #317f95;
+    font-weight: bold;
+}
+progress#progressBar{
+    position: relative;
+    z-index: 9999;
+    background-color: #ffffff;
+    box-shadow: none;
+    border-radius: 0;
+}
+progress#progressBar[value]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 35px;
+}
+progress#progressBar[value]::-webkit-progress-bar{
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress#progressBar[value]::-moz-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress[value]::-webkit-progress-value {
+  background: #317f95 ;
+}
+/* FAKE-SELECTOR */
+#clip_id {
+  border: 2px solid #efeaea;
+  margin: 0;
+  margin-top: 0;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: medium;
+  line-height: 1.5;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: All 0.5s ;
+  -moz-transition: All 0.5s ;
+  -ms-transition: All 0.5s ;
+  -o-transition: All 0.5s ;
+  transition: All 0.5s ;
+}
+ #clip_id.active{
+  height: auto;
+  max-height: 240px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.fake-option.faked-one:after {
+  content: '';
+  border: 8px solid transparent;
+  border-top-color: #ffffff;
+  width: 10px;
+  height: 0;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: inline-block;
+}
+#clip_id .fake-option:nth-child(2n){ background: #f5f5f5 ; }
+.fake-option .cadre{ display: inline-block; width: 30%; cursor: context-menu;}
+.fake-option .cadre:nth-child(3n) {
+  text-align: right;
+  font-size: small;
+  font-weight: bold;
+}
+.fake-option.faked-one {
+  color: #ffffff;
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+  background: #317f95;
+}
+/* DATATABLE CUSTOMISATION */
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after{
+  right: none ;
+  left: 0;
+
+}
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td
+{
+  border-top: 0; padding-left: 30px; color: #317f95;
+}
+#envoie_video_list table.dataTable thead>tr>th.sorting,
+#envoie_video_list table.dataTable thead>tr>th.sorting_desc,
+#envoie_video_list table.dataTable thead>tr>th.sorting_asc{
+  padding-right: initial ;
+  padding-left: 30px !important ;
+}
